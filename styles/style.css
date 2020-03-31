@@ -24,7 +24,14 @@ body {
 }
 
 #hero-content > p {
-  line-height: 1.5;
+  line-height: 1.6;
+}
+
+.orange-bg-text {
+  background-color: #f2511b;
+  border-radius: 3px 3px 3px 3px;
+  padding: 2px 6px;
+  color: white;
 }
 
 #cn-tower {
@@ -42,9 +49,18 @@ body {
   top: 3px;
 }
 
-#hero-content > p a {
+#hero-contact-container {
+  margin-top: 100px;
+}
+
+#hero-contact-container > p a {
   color: #f2511b;
   font-weight: 600;
+}
+
+.spaced-paragraph {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 #content-container {

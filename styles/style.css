@@ -1,0 +1,68 @@
+body {
+  margin: 0px;
+}
+
+#wrapper {
+  height: auto;
+  display: flex;
+}
+
+#hero {
+  width: 40%;
+  height: 100%;
+  position: fixed;
+  outline: 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero-content {
+  text-align: center;
+  padding: 110px;
+}
+
+#content-container {
+  width: 60%;
+  height: auto;
+  position: absolute;
+  right: 0;
+  background: blue;
+}
+
+.job-container {
+  height: 300px;
+  background-color: darkmagenta;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.job-1 {
+  background-color: #f2511b;
+}
+
+h1 {
+  color: red;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  color: white;
+  position: absolute;
+  top: 10px;
+}
+
+.nav-container {
+  display: flex;
+  padding-left: 0;
+}
+
+.nav-container > li {
+  list-style: none;
+  margin: 0 2.5px 0 2.5px;
+  padding: 5px;
+  background-color: lightsalmon;
+}

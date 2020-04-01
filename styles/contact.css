@@ -1,0 +1,23 @@
+.contact-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.social-logos {
+  width: 42px;
+  height: 42px;
+  padding: 10px;
+}
+
+.social-logos-container {
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+}
+
+.social-logos-container li {
+  list-style: none;;
+}

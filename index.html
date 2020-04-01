@@ -10,16 +10,24 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles/style.css">
+
+    <!-- jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+      crossorigin="anonymous">
+    </script>
+
   </head>
   <body>
     <div id="wrapper">
       <div id="hero">
         <nav>
           <ul class="nav-container">
-            <li><a href=#>Experience</a></li>
-            <li><a href=#>Skills</a></li>
-            <li><a href=#>Education</a></li>
-            <li><a href=#>Contact</a></li>
+            <li><a id="experience-button" href=#>Experience</a></li>
+            <li><a id="skills-button" href=#>Skills</a></li>
+            <li><a id="education-button" href=#>Education</a></li>
+            <li><a id="contact-button" href=#>Contact</a></li>
           </ul>
         </nav>
         <div id="hero-content">
@@ -34,60 +42,12 @@
        </div> <!-- hero-content -->
       </div> <!-- hero -->
       <div id="content-container">
-        <div class="job-container job-1">
-          <div class="job-info">
-            <p class="job-company-name">FinTech Growth Syndicate</p>
-            <p class="job-title">Front-End Developer</p>
-            <p class="job-date-location">Ocotober 2019 to Present | Toronto</p>
-            <p class="job-description">
-              <ul class="job-tasks">
-                <li>■ Develop and maintain React-based SaaS application</li>
-                <li>■ Routinely make aesthetic and UX improvements</li>
-                <li>■ Maintain and update back-end and database</li>
-                <li>■ Setup CI/CD workflow and handle weekly deployments on
-                  AWS</li>
-                <li>■ Implement and follow coding guidelines and best practices</li>
-                <li>■ Setup and perform A/B testing to determine the best UX
-                  experience</li>
-              </ul>
-              </p>
-          </div> <!-- job-info -->
-        </div> <!-- job-container -->
-        <div class="job-container job-2">
-          <div class="job-info">
-            <p class="job-company-name">3C</p>
-            <p class="job-title">Front-End Developer</p>
-            <p class="job-date-location">November 2018 to September 2019 | Toronto</p>
-            <p class="job-description">
-              <ul class="job-tasks">
-                <li>■ Collaborated with designers and marketing teams to create and implement project briefs</li>
-                <li>■ Built websites from wireframes and concept drawings</li>
-                <li>■ Managed over 10 client websites</li>
-                <li>■ Prototyped websites for client engagements</li>
-                <li>■ Improved Google PageRankTM score for clients by analyzing and fixing SEO issues</li>
-              </ul>
-            </p>
-          </div> <!-- job-info -->
-        </div> <!-- job-container -->
-        <div class="job-container job-3">
-          <div class="job-info">
-            <p class="job-company-name">Jashlabs</p>
-            <p class="job-title">Freelance Front-End Developer</p>
-            <p class="job-date-location">November 2017 to November 2018 | Toronto</p>
-            <p class="job-description">
-              <ul class="job-tasks">
-                <li>■ Coded responsive and user-friendly websites</li>
-                <li>■ Conducted browser testing and debugged any issues/li>
-                <li>■ Analyzed website performance and optimized assets</li>
-              </ul>
-            </p>
-          </div> <!-- job-info -->
-        </div> <!-- job-container -->
+        <iframe name="ifrm" id="ifrm" src="experience.html"></iframe>
       </div> <!-- content-container -->
       
    </div> <!-- wrapper -->
    
     
-    <script src="" async defer></script>
+    <script src="scripts/script.js" async defer></script>
   </body>
 </html>

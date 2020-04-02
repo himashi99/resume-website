@@ -58,7 +58,7 @@ if ($( window ).width() < 600) {
   
   $('#experience-button').click(function() {
     document.getElementById("ifrm").src = "./experience.html";
-    document.getElementById("ifrm").style.height = 1475 + "px";
+    document.getElementById("ifrm").style.height = 1511 + "px";
   });
 
   $('#skills-button').click(function() {

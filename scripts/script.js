@@ -19,19 +19,36 @@
 
 $('#experience-button').click(function() {
   document.getElementById("ifrm").src = "./experience.html";
+  document.getElementById("ifrm").style.height = 1475 + "px";
 });
 
 $('#skills-button').click(function() {
   document.getElementById("ifrm").src = "./skills.html";
+  document.getElementById("ifrm").style.height = 648.97 + "px";
 }); 
 
 $('#education-button').click(function() {
   document.getElementById("ifrm").src = "./education.html";
+  document.getElementById("ifrm").style.height = 570.23 + "px";
 });
 
 $('#contact-button').click(function() {
   document.getElementById("ifrm").src = "./contact.html";
+  document.getElementById("ifrm").style.height = 570 + "px";
 });
+
+let ifrm = document.getElementById("ifrm");
+
+ifrm.onload = function() {
+  // ifrm.style.height = ifrm.contentWindow.document.body.scrollHeight + 'px';
+  ifrm.style.height = 1475 + 'px';
+  console.log('himashi')
+}
+
+document.getElementById('ifrm').onload = function() {
+  // put your awesome code here
+  console.log('himashi')
+}
 
 
 

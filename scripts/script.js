@@ -81,6 +81,10 @@ if ($( window ).width() < 600) {
 // Scrolling
 
 if ($( window ).width() < 600) {
+  $("#experience-button").click(function() {
+    var position = $("#ifrm").offset().top; //calculates how far the top of the Carousel is from the top of the page
+    $('body, html').animate({ scrollTop: position }, 700); });
+
   $("#skills-button").click(function() {
     var position = $("#ifrm").offset().top; //calculates how far the top of the Carousel is from the top of the page
     $('body, html').animate({ scrollTop: position }, 700); });
